@@ -1,0 +1,3 @@
+### Lista de produtos
+GET http://localhost:5187/api/produto
+

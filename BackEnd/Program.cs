@@ -6,7 +6,6 @@ List<Produto> produto = new List<Produto>(){
     new Produto("Celular", "Android"),
     new Produto("Notebook", "Dell"),
     new Produto("Garrafa", "Stanley"),
-
 };
 
 //End Point = Funcionalidades
@@ -17,6 +16,6 @@ app.MapGet("/api/produto", () => produto);
 
 app.Run();
 
-public record Produto(string Nome, string Decricao);
+public record Produto(string Nome, string Descricao);
 
 
